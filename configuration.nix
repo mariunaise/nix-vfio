@@ -144,8 +144,8 @@ specialisation."GNOME".configuration = {
 		enable = true;
 		displayManager.gdm.enable = true;
 		desktopManager.gnome.enable = true;
-		system.nixos.tags = [ "GNOME MODE" ];
 	};
+	system.nixos.tags = [ "GNOME MODE" ];
 };
 
 # Virtualisation Stuff
