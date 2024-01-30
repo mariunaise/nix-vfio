@@ -109,6 +109,7 @@
 	xorg.xhost
 	micro
 	aircrack-ng
+	btop
 
 	# VIRT
 	virt-manager
