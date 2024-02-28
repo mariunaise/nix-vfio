@@ -134,7 +134,7 @@ services.openssh.enable = true;
 
 # Specialisation for VFIO option
 specialisation."VFIO".configuration = {
-	system.nixos.tags = [ "STONKS MODE" ];
+	system.nixos.tags = [ "STONKS-MODE" ];
 	vfio.enable = true;
 };
 
@@ -145,7 +145,7 @@ specialisation."GNOME".configuration = {
 		displayManager.gdm.enable = true;
 		desktopManager.gnome.enable = true;
 	};
-	system.nixos.tags = [ "GNOME MODE" ];
+	system.nixos.tags = [ "GNOME-MODE" ];
 };
 
 # Virtualisation Stuff
